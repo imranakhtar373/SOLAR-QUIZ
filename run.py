@@ -66,13 +66,13 @@ print("-----------------------")
 
 
 #for correct answers.
-print("answer: " , end ="")
+print("Correct Answer: " , end ="")
 for answer in answers:
     print(answer , end=" ")
 
 
 # for guesses.
-print("guesses: " , end="")
+print("Your Guesses: " , end="")
 for guess in guesses:
     print(guess, end=" ")
 print()

@@ -65,3 +65,5 @@ print("       RESULTS         ")
 print("-----------------------")
 
 print("answer: " , end ="")
+for answer in answers:
+    print(answer , end=" ")

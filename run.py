@@ -64,6 +64,15 @@ print("-----------------------")
 print("       RESULTS         ")
 print("-----------------------")
 
+
+#for correct answers.
 print("answer: " , end ="")
 for answer in answers:
     print(answer , end=" ")
+
+
+# for guesses.
+print("guesses: " , end="")
+for guess in guesses:
+    print(guess, end=" ")
+print()

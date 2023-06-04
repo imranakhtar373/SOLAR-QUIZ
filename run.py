@@ -24,7 +24,7 @@ options = (("A. Saturn", "B. Venus", "C. Mercury", "D. Pluto"),
             ("A. Zeta", "B. Delta", "C. Rigel", "D. Epsilon"),
             ("A. Outerplanets", "B. Exoplanet", "C. Gas giant", "D. Comits"))
 
-
+# correct answers
 answers = ("A", "B", "A", "C", "D", "A", "B", "D", "C", "B")
 
 guesses = []
@@ -32,3 +32,9 @@ guesses = []
 score = 0 
 
 question_num = 0 
+
+
+for question in questions:
+    print("-----------------------")
+    print(question)
+    

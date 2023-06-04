@@ -76,3 +76,8 @@ print("guesses: " , end="")
 for guess in guesses:
     print(guess, end=" ")
 print()
+
+
+# for correct score
+score = int(score / len(questions) * 100)
+print(f"Your score is : {score}%")

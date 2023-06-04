@@ -37,4 +37,6 @@ question_num = 0
 for question in questions:
     print("-----------------------")
     print(question)
+    for option in options[question_num]:
+        print(option)
     

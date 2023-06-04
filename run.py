@@ -25,7 +25,7 @@ options = (("A. Saturn", "B. Venus", "C. Mercury", "D. Pluto"),
             ("A. Outerplanets", "B. Exoplanet", "C. Gas giant", "D. Comits"))
 
 
-answers = ()
+answers = ("A", "B", "A", "C", "D", "A", "B", "D", "C", "B")
 
 guesses = []
 

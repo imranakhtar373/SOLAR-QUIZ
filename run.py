@@ -80,4 +80,4 @@ print()
 
 # for correct score
 score = int(score / len(questions) * 100)
-print(f"Your score is : {score}%")
+print(f" Congrats! Your score is : {score}%")
